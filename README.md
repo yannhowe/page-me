@@ -3,13 +3,18 @@
 Page-me is a simple REST API for netpage + CCG server.
 
 ## Quickstart
-Maek sure you have [pipenv](https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv) installed
+Make sure you have python and [pipenv](https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv) installed
+```
+pip install --user pipenv
+```
 
+Get the software and run it
 ```
 # clone this repo
-git clone 
+git clone https://github.com/yannhowe/page-me.git
 
 # Start Django server
+cd page-me
 pipenv run python manage.py runserver
 ```
 
